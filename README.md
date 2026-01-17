@@ -88,10 +88,25 @@ These insights guide system design and optimization.
 ## 📂 Project Structure
 
 ```text
-.
-├── executable.py          # Entry point for evaluation
+multilingual-invoice-document-vision-ai/
+│
+├── executable.py
 ├── requirements.txt
 ├── README.md
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   │   ├── explore/           # ~50 invoices (EDA & inspection)
+│   │   ├── dev/               # ~350 invoices (development)
+│   │   └── holdout/           # ~95 invoices (internal evaluation)
+│   │
+│   ├── samples/               # 2–3 demo images
+│   │
+│   └── README.md
+│
+├── eda/
+│   └── eda.ipynb
 │
 ├── src/
 │   ├── ingestion/
@@ -102,14 +117,12 @@ These insights guide system design and optimization.
 │   ├── validation/
 │   └── utils/
 │
-├── eda/
-│   └── eda.ipynb
-│
 ├── models/
-│   └── yolo_weights.pt
+│   └── yolo.pt
 │
 └── sample_output/
     └── result.json
+
 ````
 
 ---
