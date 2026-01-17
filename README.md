@@ -1,4 +1,3 @@
-````markdown
 # 📑 Document AI for Invoice Field Extraction
 
 An end-to-end **Document AI system** that extracts structured information from **multilingual invoice images** using a combination of **OCR, Computer Vision, and NLP**, designed with **accuracy, explainability, and low-cost deployment** in mind.
