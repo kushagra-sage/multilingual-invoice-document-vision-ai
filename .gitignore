@@ -1,0 +1,16 @@
+# virtual environment
+.venv/
+
+# data files (DO NOT PUSH)
+data/
+
+# outputs (optional but recommended)
+outputs/
+batch_outputs/
+final_outputs/
+outputs_after_*/
+sample_output/
+
+# python cache
+__pycache__/
+*.pyc

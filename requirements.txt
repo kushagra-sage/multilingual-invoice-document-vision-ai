@@ -1,0 +1,18 @@
+# Core
+numpy==1.24.4
+pandas
+
+# Image processing
+opencv-contrib-python==4.6.0.66
+
+# OCR (PINNED & SAFE)
+paddlepaddle==2.6.2
+paddleocr==2.7.0
+
+# EDA / visualization
+matplotlib
+
+# Utilities
+tqdm
+
+ultralytics
